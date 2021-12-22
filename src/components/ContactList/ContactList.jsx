@@ -12,7 +12,7 @@ export function ContactList() {
 
   useEffect(() => {
     setFilteredContacts(getFilteredContacts());
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+
   }, [filter, contacts]);
 
   function getFilteredContacts() {
